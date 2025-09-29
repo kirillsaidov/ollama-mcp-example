@@ -97,7 +97,7 @@ def get_weather(city: str) -> str:
     return f"Sunny, 75°F in {city}"
 ```
 
-That's it. Noww you can test it by running the client script. 
+That's it. Now you can test it by running the client script. 
 
 ## LICENSE
 Unlicense.
