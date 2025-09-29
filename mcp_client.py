@@ -50,7 +50,9 @@ async def main(model: str):
                 user_input = input('>> ').strip()
                 if user_input.startswith('/'):
                     break
-
+                elif not user_input:
+                    continue
+                
                 # Append history
                 history.append({'role': 'user', 'content': user_input})
 
