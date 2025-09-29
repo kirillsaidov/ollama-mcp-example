@@ -3,9 +3,9 @@ This is a simple, beginner-friendly example showing how to set up and use an MCP
 
 ## A summary of how MCP works
 There are 3 components:
-* MCP server - exposes your tools over a network.
-* MCP client - connects to your MCP server and uses those tools.
-* LLM - the language model that decides whether a tool is needed.
+* **MCP server** - exposes your tools over a network.
+* **MCP client** - connects to your MCP server and uses those tools.
+* **LLM** - the language model that decides whether a tool is needed.
 
 Basically, the MCP client is a wrapper for all tools. It connects to MCP servers and pulls their tools into a single list, exposing them to your language model as function calls.
 
