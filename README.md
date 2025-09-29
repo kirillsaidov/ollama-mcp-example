@@ -28,12 +28,14 @@ This project demonstrates how to set up and use MCP from scratch, showing what h
 2. Create MCP client. Connect to MCP server and query for tools.
 3. Handle chat and tool calls with Ollama.
 
+I handle chat logic in [`mcp_client.py`](./mcp_client.py).
+
 ## Quick start
 
 ### Prerequisites
 - Python 3.8+
 - Ollama installed and running
-- The `qwen3:4b-instruct` model (or modify the code for your preferred model)
+- The `qwen3:4b-instruct` model (or modify the code for your preferred model in [`mcp_client.py`](./mcp_client.py))
 
 ### Installation
 #### Clone repo
