@@ -7,7 +7,7 @@ There are 3 components:
 * **MCP client** - connects to your MCP server and uses those tools.
 * **LLM** - the language model that decides whether a tool is needed.
 
-Basically, the MCP client is a wrapper for all tools. It connects to MCP servers and pulls their tools into a single list, exposing them to your language model as function calls.
+Basically, the MCP client is a wrapper for function calling. It connects to MCP servers and pulls their tools into a single list, exposing them to your language model as function calls.
 
 Here is the schema:
 ```sh
