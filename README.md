@@ -67,7 +67,7 @@ Apple's current stock price is $252.13 per share.
 Alphabet Inc. (GOOGL) is currently trading at 247.14 per share.
 ```
 
-This is the same as my previous (`ollama-function-calling`](https://github.com/kirillsaidov/ollama-function-calling.git) example. The results are identical, but conceptually we now use MCP, which is more flexible and easily extensible. There is no need to modify your main app code. 
+This is the same as my previous [`ollama-function-calling`](https://github.com/kirillsaidov/ollama-function-calling.git) example. The results are identical, but conceptually we now use MCP, which is more flexible and easily extensible. There is no need to modify your main app code. 
 
 ## How it works
 The MCP client is essentially a tool wrapper that:
