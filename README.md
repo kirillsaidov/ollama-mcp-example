@@ -20,7 +20,7 @@ Here is the schema:
                          from multiple
                          MCP servers
 ```
-The difference from regular function calling is that you don’t need to implement, define, or execute the tools yourself. MCP servers handle that. Most importantly, they are reusable and model-agnostic. _"Create once, use anywhere."_
+The difference from regular function calling is that you don’t need to implement, define, or execute the tools yourself. MCP servers handle that. Most importantly, they are reusable and model-agnostic. _"Create once, then reuse."_
 
 ## What this example does
 This project demonstrates how to set up and use MCP from scratch, showing what happens on both sides of the client and server under the hood:
