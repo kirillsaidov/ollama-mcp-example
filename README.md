@@ -1,4 +1,4 @@
-# Ollama MCP Example for Dummies
+# Ollama MCP for Dummies
 This is a simple, beginner-friendly example showing how to set up and use an MCP server and client from scratch with Ollama. I assume you already know what MCP is conceptually.
 
 ## A summary of how MCP works
